@@ -1,4 +1,4 @@
-export const metadata = {
+import Link from 'next/link'; export const metadata = {
   title: 'About Us',
   description: 'About CalcBharat – India\'s free calculator hub with 50+ tools for Finance, Real Estate, Academic & more. Built for India, by Indians.',
 };
@@ -34,7 +34,7 @@ export default function About() {
       </ul>
 
       <h2>Contact Us</h2>
-      <p>Have suggestions, found a bug, or want to request a new calculator? We&apos;d love to hear from you. Visit our <a href="/contact/">Contact Us</a> page.</p>
+      <p>Have suggestions, found a bug, or want to request a new calculator? We&apos;d love to hear from you. Visit our <Link href="/contact/">Contact Us</Link> page.</p>
     </div>
   );
 }

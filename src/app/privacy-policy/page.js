@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export const metadata = {
   title: 'Privacy Policy',
   description: 'CalcBharat privacy policy. Learn how we handle your data, cookies, and third-party services.',
@@ -45,7 +47,7 @@ export default function PrivacyPolicy() {
       <p>We may update this privacy policy periodically. Changes will be posted on this page with an updated date.</p>
 
       <h2>8. Contact</h2>
-      <p>For questions about this privacy policy, please visit our <a href="/contact/">Contact Us</a> page.</p>
+      <p>For questions about this privacy policy, please visit our <Link href="/contact/">Contact Us</Link> page.</p>
     </div>
   );
 }

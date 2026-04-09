@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export const metadata = {
   title: 'Terms of Service',
   description: 'CalcBharat terms of service. Rules for using our free calculator platform.',
@@ -34,7 +36,7 @@ export default function TermsOfService() {
       <p>We reserve the right to modify these terms at any time. Continued use of the website after changes constitutes acceptance of the updated terms.</p>
 
       <h2>9. Contact</h2>
-      <p>For questions about these terms, visit our <a href="/contact/">Contact Us</a> page.</p>
+      <p>For questions about these terms, visit our <Link href="/contact/">Contact Us</Link> page.</p>
     </div>
   );
 }
